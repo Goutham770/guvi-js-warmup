@@ -1,7 +1,7 @@
 
-// code to add a image file using java script 
-const myImage = document.querySelector("img");
+// code to add a image file using java script;
 
+const myImage = document.querySelector("img");
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/firefox-icon.png") {
